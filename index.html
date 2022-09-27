@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <link href="newcss.css" rel="stylesheet" type="text/css"/> 
+ <script>
+    window.addEventListener('DOMContentLoaded', function() {
+        var myArray = document.getElementsByTagName("img");
+
+        for(var d of myArray){
+          attach_eventhandler(d);
+        }
+    });
+    function attach_eventhandler(d){
+        d.onclick = function(){
+            this.style.visibility = "hidden";
+        };
+    }
+
+</script>
+
+<style type="text/CSS">
+
+</style>
+
+<script type="text/javascript">
+window.onload=timeout;
+function timeout(){
+window.setTimeout("redirect()",3000)}
+
+function redirect(){
+window.location="index2.html"
+return}
+
+</script>
+
+<div class="enter">
+<img src="vista.gif" alt=""/>
+</div>
+
+</html>
