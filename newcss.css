@@ -13,6 +13,10 @@ body{
 
 }
 
+body, html{
+height: 100%;
+}
+
 head{
     margin-left: 10px;
     cursor: url(pen.png), auto;
@@ -26,6 +30,40 @@ padding-top: 20%;
 
 }
 
+.container {
+  position: relative;
+}
+
+.head,
+.bar{
+  display: inline-block;
+}
+
+.bar {
+  position: fixed;
+  right: 0;
+  padding-right: 30px;
+}
+
+.end
+{
+text-align: center;  
+padding-top: 20%;
+
+}
+
+.gg
+{
+  background-image: url("cya.gif");
+  height: 110%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -20px;
+  
+}
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 
 /* Clear floats after image containers */
